@@ -31,5 +31,5 @@ from one of the many npm content CDN's.
 Example:
 
 ```html
-  <script src="https://cdn.jsdelivr.net/npm/pkgnamt@latest/dist/pkgname.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pkgname@latest/dist/pkgname.min.js"></script>
 ```
