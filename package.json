@@ -1,0 +1,42 @@
+{
+  "name": "distjs",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "distjs": "./bin.js"
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "test": "standard",
+    "start": "budo dist.js:bundle.js",
+    "precommit": "npm test",
+    "prepush": "npm test",
+    "commitmsg": "validate-commit-msg",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "keywords": [],
+  "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (http://www.mikealrogers.com)",
+  "license": "Apache-2.0",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "babel-minify": "^0.2.0",
+    "bl": "^1.2.1",
+    "browserify": "^14.4.0",
+    "commitizen": "^2.9.6",
+    "load-js": "^2.0.0",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.2"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3",
+    "cz-conventional-changelog": "^2.0.0",
+    "husky": "^0.14.3",
+    "semantic-release": "^8.0.3",
+    "validate-commit-msg": "^2.14.0"
+  }
+}
