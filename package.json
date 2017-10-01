@@ -1,6 +1,6 @@
 {
   "name": "distjs",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -38,5 +38,9 @@
     "husky": "^0.14.3",
     "semantic-release": "^8.0.3",
     "validate-commit-msg": "^2.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikeal/distjs.git"
   }
 }
