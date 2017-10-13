@@ -63,7 +63,7 @@ const install = cwd => {
 
 if (process.argv.length === 2) {
   let cwd = process.cwd()
-  exports.build(cwd, require(`${cwd}/package.json`).name)
+  exports.build(cwd, require(`${cwd}/package.json`).name.replace(/\//g, "-"))
 } else if (process.argv.length === 3) {
   let cwd = process.cwd()
   let command = process.argv[2]
