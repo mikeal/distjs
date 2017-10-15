@@ -1,4 +1,5 @@
 /* globals CustomEvent */
+process.distjs = true
 let loadjs = require('distjs').loadjs
 
 const build = name => {
