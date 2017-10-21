@@ -1,7 +1,7 @@
 {
   "name": "distjs",
   "version": "0.0.0-development",
-  "description": "",
+  "description": "Distribute standalone WebComponents w/ npm.",
   "main": "index.js",
   "bin": {
     "distjs": "./bin.js"
